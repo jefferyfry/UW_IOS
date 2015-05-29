@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<VariablesViewState
+   version = "1.0">
+   <ContextStates>
+      <ContextState
+         contextName = "__61-[AlbumsTableViewController tableView:cellForRowAtIndexPath:]_block_invoke:AlbumsTableViewController.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "cell.imageView.bounds.size">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "-[AlbumsTableViewController tableView:cellForRowAtIndexPath:]:AlbumsTableViewController.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "cell.imageView.bounds">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+   </ContextStates>
+</VariablesViewState>

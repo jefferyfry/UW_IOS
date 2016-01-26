@@ -18,7 +18,7 @@
 		123F3DE619A26D8600441B9C /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 123F3DE519A26D8600441B9C /* XCTest.framework */; };
 		123F3DE719A26D8600441B9C /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 123F3DC619A26D8600441B9C /* Cocoa.framework */; };
 		123F3DEF19A26D8600441B9C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 123F3DED19A26D8600441B9C /* InfoPlist.strings */; };
-		123F3DF119A26D8600441B9C /* HW6_JfryTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 123F3DF019A26D8600441B9C /* HW6_JfryTests.m */; };
+		123F3DF119A26D8600441B9C /* MoviePlexTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 123F3DF019A26D8600441B9C /* MoviePlexTests.m */; };
 		123F3DFD19A277E000441B9C /* JBFWindowController.m in Sources */ = {isa = PBXBuildFile; fileRef = 123F3DFB19A277E000441B9C /* JBFWindowController.m */; };
 		123F3DFE19A277E000441B9C /* JBFWindowController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 123F3DFC19A277E000441B9C /* JBFWindowController.xib */; };
 		123F3E0219A2783900441B9C /* JBFJSONViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 123F3E0019A2783900441B9C /* JBFJSONViewController.m */; };
@@ -64,7 +64,7 @@
 		123F3DE519A26D8600441B9C /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		123F3DEC19A26D8600441B9C /* HW6_JfryTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "HW6_JfryTests-Info.plist"; sourceTree = "<group>"; };
 		123F3DEE19A26D8600441B9C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		123F3DF019A26D8600441B9C /* HW6_JfryTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HW6_JfryTests.m; sourceTree = "<group>"; };
+		123F3DF019A26D8600441B9C /* MoviePlexTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MoviePlexTests.m; sourceTree = "<group>"; };
 		123F3DFA19A277E000441B9C /* JBFWindowController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = JBFWindowController.h; path = ../JBFWindowController.h; sourceTree = "<group>"; };
 		123F3DFB19A277E000441B9C /* JBFWindowController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = JBFWindowController.m; path = ../JBFWindowController.m; sourceTree = "<group>"; };
 		123F3DFC19A277E000441B9C /* JBFWindowController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = JBFWindowController.xib; path = ../JBFWindowController.xib; sourceTree = "<group>"; };
@@ -188,7 +188,7 @@
 		123F3DEA19A26D8600441B9C /* MoviePlexTests */ = {
 			isa = PBXGroup;
 			children = (
-				123F3DF019A26D8600441B9C /* HW6_JfryTests.m */,
+				123F3DF019A26D8600441B9C /* MoviePlexTests.m */,
 				123F3DEB19A26D8600441B9C /* Supporting Files */,
 			);
 			path = MoviePlexTests;
@@ -273,7 +273,7 @@
 			isa = PBXProject;
 			attributes = {
 				CLASSPREFIX = JBF;
-				LastUpgradeCheck = 0510;
+				LastUpgradeCheck = 0720;
 				ORGANIZATIONNAME = Jeff_Fry;
 				TargetAttributes = {
 					123F3DE319A26D8600441B9C = {
@@ -350,7 +350,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				123F3DF119A26D8600441B9C /* HW6_JfryTests.m in Sources */,
+				123F3DF119A26D8600441B9C /* MoviePlexTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -417,6 +417,7 @@
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
@@ -476,8 +477,8 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				COMBINE_HIDPI_IMAGES = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "HW6_Jfry/HW6_Jfry-Prefix.pch";
-				INFOPLIST_FILE = "HW6_Jfry/HW6_Jfry-Info.plist";
+				GCC_PREFIX_HEADER = "MoviePlex/MoviePlex-Prefix.pch";
+				INFOPLIST_FILE = "MoviePlex/MoviePlex-Info.plist";
 				PRODUCT_NAME = MoviePlex;
 				WRAPPER_EXTENSION = app;
 			};
@@ -489,8 +490,8 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				COMBINE_HIDPI_IMAGES = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "HW6_Jfry/HW6_Jfry-Prefix.pch";
-				INFOPLIST_FILE = "HW6_Jfry/HW6_Jfry-Info.plist";
+				GCC_PREFIX_HEADER = "MoviePlex/MoviePlex-Prefix.pch";
+				INFOPLIST_FILE = "MoviePlex/MoviePlex-Info.plist";
 				PRODUCT_NAME = MoviePlex;
 				WRAPPER_EXTENSION = app;
 			};
@@ -499,19 +500,19 @@
 		123F3DF819A26D8600441B9C /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/HW6_Jfry.app/Contents/MacOS/HW6_Jfry";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/MoviePlex.app/Contents/MacOS/MoviePlex";
 				COMBINE_HIDPI_IMAGES = YES;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(DEVELOPER_FRAMEWORKS_DIR)",
 					"$(inherited)",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "HW6_Jfry/HW6_Jfry-Prefix.pch";
+				GCC_PREFIX_HEADER = "MoviePlex/MoviePlex-Prefix.pch";
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
 					"$(inherited)",
 				);
-				INFOPLIST_FILE = "HW6_JfryTests/HW6_JfryTests-Info.plist";
+				INFOPLIST_FILE = "MoviePlexTests/MoviePlexTests-Info.plist";
 				PRODUCT_NAME = MoviePlex;
 				TEST_HOST = "$(BUNDLE_LOADER)";
 				WRAPPER_EXTENSION = xctest;
@@ -521,15 +522,15 @@
 		123F3DF919A26D8600441B9C /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/HW6_Jfry.app/Contents/MacOS/HW6_Jfry";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/MoviePlex.app/Contents/MacOS/MoviePlex";
 				COMBINE_HIDPI_IMAGES = YES;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(DEVELOPER_FRAMEWORKS_DIR)",
 					"$(inherited)",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "HW6_Jfry/HW6_Jfry-Prefix.pch";
-				INFOPLIST_FILE = "HW6_JfryTests/HW6_JfryTests-Info.plist";
+				GCC_PREFIX_HEADER = "MoviePlex/MoviePlex-Prefix.pch";
+				INFOPLIST_FILE = "MoviePlexTests/MoviePlexTests-Info.plist";
 				PRODUCT_NAME = MoviePlex;
 				TEST_HOST = "$(BUNDLE_LOADER)";
 				WRAPPER_EXTENSION = xctest;

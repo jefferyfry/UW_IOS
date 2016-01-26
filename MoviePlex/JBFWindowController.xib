@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.Cocoa.XIB" version="3.0" toolsVersion="5056" systemVersion="13E28" targetRuntime="MacOSX.Cocoa" propertyAccessControl="none" useAutolayout="YES">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.CocoaPlugin" version="5056"/>
+    </dependencies>
+    <objects>
+        <customObject id="-2" userLabel="File's Owner" customClass="JBFWindowController">
+            <connections>
+                <outlet property="movieSearchField" destination="vBe-34-avR" id="8w9-zx-F76"/>
+                <outlet property="numResultSegmentControl" destination="Jb2-zh-MOs" id="Trr-aW-NYb"/>
+                <outlet property="numResultsSegment" destination="wfM-eS-Zn5" id="YDh-Uv-GV2"/>
+                <outlet property="numResultsSegmentControl" destination="Jb2-zh-MOs" id="Ms8-uE-cOD"/>
+                <outlet property="test" destination="Jb2-zh-MOs" id="etW-3i-peV"/>
+                <outlet property="window" destination="F0z-JX-Cv5" id="gIp-Ho-8D9"/>
+            </connections>
+        </customObject>
+        <customObject id="-1" userLabel="First Responder" customClass="FirstResponder"/>
+        <customObject id="-3" userLabel="Application"/>
+        <window title="Window" allowsToolTipsWhenApplicationIsInactive="NO" autorecalculatesKeyViewLoop="NO" oneShot="NO" releasedWhenClosed="NO" animationBehavior="default" id="F0z-JX-Cv5">
+            <windowStyleMask key="styleMask" titled="YES" closable="YES" miniaturizable="YES" resizable="YES"/>
+            <rect key="contentRect" x="508" y="340" width="832" height="472"/>
+            <rect key="screenRect" x="0.0" y="0.0" width="1440" height="878"/>
+            <value key="minSize" type="size" width="480" height="270"/>
+            <view key="contentView" id="se5-gp-TjO">
+                <rect key="frame" x="0.0" y="0.0" width="832" height="472"/>
+                <autoresizingMask key="autoresizingMask"/>
+            </view>
+            <toolbar key="toolbar" implicitIdentifier="FF532AFF-F6CA-4936-952C-573EDC509BE8" autosavesConfiguration="NO" displayMode="iconAndLabel" sizeMode="regular" id="hyF-Jx-myy">
+                <allowedToolbarItems>
+                    <toolbarItem implicitItemIdentifier="78CFE4BC-23A9-4D76-A701-07D131A2A7F5" label="JSON View" paletteLabel="JSON View" tag="-1" image="json" id="Cqd-T1-606">
+                        <connections>
+                            <action selector="fireJSONView:" target="-2" id="5dx-P4-4U6"/>
+                        </connections>
+                    </toolbarItem>
+                    <toolbarItem implicitItemIdentifier="D6EF2A37-8B6F-45D5-9DA1-3AC7EBE83328" label="Table View" paletteLabel="Table View" tag="-1" image="table" id="av7-bF-jCI">
+                        <connections>
+                            <action selector="fireTableView:" target="-2" id="fWo-FG-p6q"/>
+                        </connections>
+                    </toolbarItem>
+                    <toolbarItem implicitItemIdentifier="NSToolbarFlexibleSpaceItem" id="2QS-uV-M55"/>
+                    <toolbarItem implicitItemIdentifier="AE8DE513-6A8E-4D88-979A-A50211B1AF2D" label="Movie Search" paletteLabel="Movie Search" id="MjZ-yw-DI4">
+                        <nil key="toolTip"/>
+                        <size key="minSize" width="96" height="22"/>
+                        <size key="maxSize" width="96" height="22"/>
+                        <searchField key="view" verticalHuggingPriority="750" id="vBe-34-avR">
+                            <rect key="frame" x="0.0" y="14" width="96" height="22"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                            <searchFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" selectable="YES" editable="YES" borderStyle="bezel" usesSingleLineMode="YES" bezelStyle="round" sendsWholeSearchString="YES" id="9Nc-GJ-SUy">
+                                <font key="font" metaFont="system"/>
+                                <color key="textColor" name="controlTextColor" catalog="System" colorSpace="catalog"/>
+                                <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
+                            </searchFieldCell>
+                        </searchField>
+                        <connections>
+                            <action selector="fireMovieSearch:" target="-2" id="zUZ-Y4-VAH"/>
+                        </connections>
+                    </toolbarItem>
+                    <toolbarItem implicitItemIdentifier="A5CB0607-E96B-44D5-8C7D-953B8AE6CB45" label="# Results" paletteLabel="# Results" id="wfM-eS-Zn5">
+                        <nil key="toolTip"/>
+                        <size key="minSize" width="104" height="28"/>
+                        <size key="maxSize" width="122" height="28"/>
+                        <segmentedControl key="view" verticalHuggingPriority="750" id="Jb2-zh-MOs">
+                            <rect key="frame" x="0.0" y="14" width="114" height="28"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                            <segmentedCell key="cell" alignment="left" style="texturedRounded" trackingMode="selectOne" id="Xas-DV-8SN">
+                                <font key="font" metaFont="system"/>
+                                <segments>
+                                    <segment label="1" width="32"/>
+                                    <segment label="10" selected="YES" tag="1"/>
+                                    <segment label="50"/>
+                                </segments>
+                            </segmentedCell>
+                        </segmentedControl>
+                    </toolbarItem>
+                </allowedToolbarItems>
+                <defaultToolbarItems>
+                    <toolbarItem reference="Cqd-T1-606"/>
+                    <toolbarItem reference="av7-bF-jCI"/>
+                    <toolbarItem reference="2QS-uV-M55"/>
+                    <toolbarItem reference="MjZ-yw-DI4"/>
+                    <toolbarItem reference="wfM-eS-Zn5"/>
+                </defaultToolbarItems>
+            </toolbar>
+            <connections>
+                <outlet property="delegate" destination="-2" id="0bl-1N-AYu"/>
+            </connections>
+        </window>
+    </objects>
+    <resources>
+        <image name="json" width="50.7042236328125" height="50.7042236328125"/>
+        <image name="table" width="16" height="16"/>
+    </resources>
+</document>

@@ -1,0 +1,18 @@
+//
+//  JBFWindowController.h
+//  HW6_Jfry
+//
+//  Created by Jeffery Fry on 8/18/14.
+//  Copyright (c) 2014 Jeff_Fry. All rights reserved.
+//
+
+#import <Cocoa/Cocoa.h>
+#import "JBFRottenTomatoesMovieSearch.h"
+#import "JBFJSONViewController.h"
+#import "JBFMovieSearchListingViewController.h"
+
+@interface JBFWindowController : NSWindowController <JBFRottenTomatoesMovieSearchDelegate>
+
+-(void)submitSearch:(NSString*)text;
+
+@end

@@ -21,14 +21,10 @@
 		123F3DF119A26D8600441B9C /* HW6_JfryTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 123F3DF019A26D8600441B9C /* HW6_JfryTests.m */; };
 		123F3DFD19A277E000441B9C /* JBFWindowController.m in Sources */ = {isa = PBXBuildFile; fileRef = 123F3DFB19A277E000441B9C /* JBFWindowController.m */; };
 		123F3DFE19A277E000441B9C /* JBFWindowController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 123F3DFC19A277E000441B9C /* JBFWindowController.xib */; };
-		123F3E0219A2783900441B9C /* JBFJSONViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 123F3E0019A2783900441B9C /* JBFJSONViewController.m */; };
-		123F3E0319A2783900441B9C /* JBFJSONViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 123F3E0119A2783900441B9C /* JBFJSONViewController.xib */; };
 		123F3E0719A2786300441B9C /* JBFMovieSearchListingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 123F3E0519A2786300441B9C /* JBFMovieSearchListingViewController.m */; };
 		123F3E0819A2786300441B9C /* JBFMovieSearchListingViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 123F3E0619A2786300441B9C /* JBFMovieSearchListingViewController.xib */; };
 		123F3E1019A27B6100441B9C /* JBFRottenTomatoesMovieSearch.m in Sources */ = {isa = PBXBuildFile; fileRef = 123F3E0F19A27B6100441B9C /* JBFRottenTomatoesMovieSearch.m */; };
 		123F3E1319A27B7A00441B9C /* JBFMovie.m in Sources */ = {isa = PBXBuildFile; fileRef = 123F3E1219A27B7A00441B9C /* JBFMovie.m */; };
-		123F3E1619A27E3200441B9C /* json.png in Resources */ = {isa = PBXBuildFile; fileRef = 123F3E1419A27E3100441B9C /* json.png */; };
-		123F3E1719A27E3200441B9C /* table.png in Resources */ = {isa = PBXBuildFile; fileRef = 123F3E1519A27E3200441B9C /* table.png */; };
 		123F3E1A19A3C26300441B9C /* JBFMovieSearchResult.m in Sources */ = {isa = PBXBuildFile; fileRef = 123F3E1919A3C26300441B9C /* JBFMovieSearchResult.m */; };
 		123F3E1D19A3C33D00441B9C /* JBFJSON2MovieParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 123F3E1C19A3C33D00441B9C /* JBFJSON2MovieParser.m */; };
 		123F3E2019A40EB500441B9C /* JBFMovieTableCellView.m in Sources */ = {isa = PBXBuildFile; fileRef = 123F3E1F19A40EB500441B9C /* JBFMovieTableCellView.m */; };
@@ -68,9 +64,6 @@
 		123F3DFA19A277E000441B9C /* JBFWindowController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = JBFWindowController.h; path = ../JBFWindowController.h; sourceTree = "<group>"; };
 		123F3DFB19A277E000441B9C /* JBFWindowController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = JBFWindowController.m; path = ../JBFWindowController.m; sourceTree = "<group>"; };
 		123F3DFC19A277E000441B9C /* JBFWindowController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = JBFWindowController.xib; path = ../JBFWindowController.xib; sourceTree = "<group>"; };
-		123F3DFF19A2783900441B9C /* JBFJSONViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JBFJSONViewController.h; sourceTree = "<group>"; };
-		123F3E0019A2783900441B9C /* JBFJSONViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JBFJSONViewController.m; sourceTree = "<group>"; };
-		123F3E0119A2783900441B9C /* JBFJSONViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = JBFJSONViewController.xib; sourceTree = "<group>"; };
 		123F3E0419A2786300441B9C /* JBFMovieSearchListingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JBFMovieSearchListingViewController.h; sourceTree = "<group>"; };
 		123F3E0519A2786300441B9C /* JBFMovieSearchListingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JBFMovieSearchListingViewController.m; sourceTree = "<group>"; };
 		123F3E0619A2786300441B9C /* JBFMovieSearchListingViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = JBFMovieSearchListingViewController.xib; sourceTree = "<group>"; };
@@ -78,8 +71,6 @@
 		123F3E0F19A27B6100441B9C /* JBFRottenTomatoesMovieSearch.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JBFRottenTomatoesMovieSearch.m; sourceTree = "<group>"; };
 		123F3E1119A27B7A00441B9C /* JBFMovie.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JBFMovie.h; sourceTree = "<group>"; };
 		123F3E1219A27B7A00441B9C /* JBFMovie.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JBFMovie.m; sourceTree = "<group>"; };
-		123F3E1419A27E3100441B9C /* json.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = json.png; sourceTree = SOURCE_ROOT; };
-		123F3E1519A27E3200441B9C /* table.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = table.png; sourceTree = SOURCE_ROOT; };
 		123F3E1819A3C26300441B9C /* JBFMovieSearchResult.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JBFMovieSearchResult.h; sourceTree = "<group>"; };
 		123F3E1919A3C26300441B9C /* JBFMovieSearchResult.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JBFMovieSearchResult.m; sourceTree = "<group>"; };
 		123F3E1B19A3C33D00441B9C /* JBFJSON2MovieParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JBFJSON2MovieParser.h; sourceTree = "<group>"; };
@@ -152,8 +143,6 @@
 			isa = PBXGroup;
 			children = (
 				123AA1B219A523FF00A16101 /* blank_poster.jpg */,
-				123F3E1419A27E3100441B9C /* json.png */,
-				123F3E1519A27E3200441B9C /* table.png */,
 				123F3DD819A26D8600441B9C /* JBFAppDelegate.h */,
 				123F3DD919A26D8600441B9C /* JBFAppDelegate.m */,
 				123F3DDB19A26D8600441B9C /* MainMenu.xib */,
@@ -206,9 +195,6 @@
 		123F3E0919A2789000441B9C /* ViewControllers */ = {
 			isa = PBXGroup;
 			children = (
-				123F3DFF19A2783900441B9C /* JBFJSONViewController.h */,
-				123F3E0019A2783900441B9C /* JBFJSONViewController.m */,
-				123F3E0119A2783900441B9C /* JBFJSONViewController.xib */,
 				123F3E0419A2786300441B9C /* JBFMovieSearchListingViewController.h */,
 				123F3E0519A2786300441B9C /* JBFMovieSearchListingViewController.m */,
 				123F3E0619A2786300441B9C /* JBFMovieSearchListingViewController.xib */,
@@ -306,15 +292,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				123F3DD119A26D8600441B9C /* InfoPlist.strings in Resources */,
-				123F3E0319A2783900441B9C /* JBFJSONViewController.xib in Resources */,
 				123F3E0819A2786300441B9C /* JBFMovieSearchListingViewController.xib in Resources */,
 				123AA1B319A523FF00A16101 /* blank_poster.jpg in Resources */,
 				123F3DDF19A26D8600441B9C /* Images.xcassets in Resources */,
 				123F3DD719A26D8600441B9C /* Credits.rtf in Resources */,
-				123F3E1619A27E3200441B9C /* json.png in Resources */,
 				123F3DFE19A277E000441B9C /* JBFWindowController.xib in Resources */,
 				123F3DDD19A26D8600441B9C /* MainMenu.xib in Resources */,
-				123F3E1719A27E3200441B9C /* table.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -335,7 +318,6 @@
 			files = (
 				123F3DFD19A277E000441B9C /* JBFWindowController.m in Sources */,
 				123F3E2019A40EB500441B9C /* JBFMovieTableCellView.m in Sources */,
-				123F3E0219A2783900441B9C /* JBFJSONViewController.m in Sources */,
 				123F3E1319A27B7A00441B9C /* JBFMovie.m in Sources */,
 				123F3E1A19A3C26300441B9C /* JBFMovieSearchResult.m in Sources */,
 				123F3E1D19A3C33D00441B9C /* JBFJSON2MovieParser.m in Sources */,
@@ -476,8 +458,8 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				COMBINE_HIDPI_IMAGES = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "HW6_Jfry/HW6_Jfry-Prefix.pch";
-				INFOPLIST_FILE = "HW6_Jfry/HW6_Jfry-Info.plist";
+				GCC_PREFIX_HEADER = "MoviePlex/MoviePlex-Prefix.pch";
+				INFOPLIST_FILE = "MoviePlex/MoviePlex-Info.plist";
 				PRODUCT_NAME = MoviePlex;
 				WRAPPER_EXTENSION = app;
 			};
@@ -489,8 +471,8 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				COMBINE_HIDPI_IMAGES = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "HW6_Jfry/HW6_Jfry-Prefix.pch";
-				INFOPLIST_FILE = "HW6_Jfry/HW6_Jfry-Info.plist";
+				GCC_PREFIX_HEADER = "MoviePlex/MoviePlex-Prefix.pch";
+				INFOPLIST_FILE = "MoviePlex/MoviePlex-Info.plist";
 				PRODUCT_NAME = MoviePlex;
 				WRAPPER_EXTENSION = app;
 			};

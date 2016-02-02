@@ -8,7 +8,6 @@
 
 #import <Cocoa/Cocoa.h>
 #import "JBFRottenTomatoesMovieSearch.h"
-#import "JBFJSONViewController.h"
 #import "JBFMovieSearchListingViewController.h"
 
 @interface JBFWindowController : NSWindowController <JBFRottenTomatoesMovieSearchDelegate>

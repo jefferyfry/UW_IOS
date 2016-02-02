@@ -11,7 +11,6 @@
 @interface JBFWindowController ()
 
 @property JBFRottenTomatoesMovieSearch *rottenTomatoesMovieSearch;
-@property JBFJSONViewController *jsonViewController;
 @property JBFMovieSearchListingViewController *movieSearchListingViewController;
 @property (weak) IBOutlet NSSearchField *movieSearchField;
 @property (weak) IBOutlet NSSegmentedControl *numResultsSegmentControl;
@@ -35,7 +34,6 @@
     [super windowDidLoad];
     self.rottenTomatoesMovieSearch = [JBFRottenTomatoesMovieSearch new];
     self.rottenTomatoesMovieSearch.delegate = self;
-    self.jsonViewController = [JBFJSONViewController new];
     self.movieSearchListingViewController = [JBFMovieSearchListingViewController new];
     [self displayViewController:self.movieSearchListingViewController];
 }
@@ -57,14 +55,6 @@
     [self.rottenTomatoesMovieSearch searchForMovie:self.movieSearchField.stringValue forNumberOfResults:numResults];
 }
 
-- (IBAction)fireTableView:(id)sender {
-    [self displayViewController:self.movieSearchListingViewController];
-}
-
-- (IBAction)fireJSONView:(id)sender {
-    [self displayViewController:self.jsonViewController];
-}
-
 -(void)startedSearchRequest{
     
 }
@@ -74,7 +64,6 @@
 }
 
 -(void)finishedSearchRequest:(JBFMovieSearchResult*)results{
-    self.jsonViewController.jsonTextView.textContainer.textView.string = results.jsonString;
     self.movieSearchListingViewController.movies = results.moviesArray;
     [self.movieSearchListingViewController reloadData];
 }
@@ -89,7 +78,6 @@
 
 -(void)removeAllSubViews
 {
-    [self.jsonViewController.view removeFromSuperview];
     [self.movieSearchListingViewController.view removeFromSuperview];
 }
 

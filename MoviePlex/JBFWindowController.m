@@ -1,6 +1,6 @@
 //
 //  JBFWindowController.m
-//  HW6_Jfry
+//  MoviePlex
 //
 //  Created by Jeffery Fry on 8/18/14.
 //  Copyright (c) 2014 Jeff_Fry. All rights reserved.
@@ -13,8 +13,6 @@
 @property JBFRottenTomatoesMovieSearch *rottenTomatoesMovieSearch;
 @property JBFMovieSearchListingViewController *movieSearchListingViewController;
 @property (weak) IBOutlet NSSearchField *movieSearchField;
-@property (weak) IBOutlet NSSegmentedControl *numResultsSegmentControl;
-
 
 @end
 
@@ -32,6 +30,7 @@
 - (void)windowDidLoad
 {
     [super windowDidLoad];
+    [self.window setTitle:@"MoviePlex"];
     self.rottenTomatoesMovieSearch = [JBFRottenTomatoesMovieSearch new];
     self.rottenTomatoesMovieSearch.delegate = self;
     self.movieSearchListingViewController = [JBFMovieSearchListingViewController new];
@@ -45,12 +44,7 @@
 }
 
 - (IBAction)fireMovieSearch:(id)sender {
-    NSInteger selectedSegment = [self.numResultsSegmentControl selectedSegment];
     NSUInteger numResults = 1;
-    if(selectedSegment==1)
-        numResults = 10;
-    else if(selectedSegment==2)
-        numResults = 50;
     
     [self.rottenTomatoesMovieSearch searchForMovie:self.movieSearchField.stringValue forNumberOfResults:numResults];
 }

@@ -1,6 +1,6 @@
 //
 //  JBFAppDelegate.h
-//  HW6_Jfry
+//  MoviePlex
 //
 //  Created by Jeffery Fry on 8/18/14.
 //  Copyright (c) 2014 Jeff_Fry. All rights reserved.
@@ -10,6 +10,10 @@
 #import "JBFWindowController.h"
 
 @interface JBFAppDelegate : NSObject <NSApplicationDelegate>
+
+@property (strong, nonatomic) IBOutlet NSMenu *mainMenu;
+@property (strong, nonatomic) NSStatusItem *statusItem;
+@property (strong, nonatomic) NSMenu *statusMenu;
 
 @property (strong,nonatomic) JBFWindowController *mainWindowController;
 

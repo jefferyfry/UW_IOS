@@ -1,6 +1,6 @@
 //
 //  JBFMovieSearchListingViewController.m
-//  HW6_Jfry
+//  MoviePlex
 //
 //  Created by Jeffery Fry on 8/18/14.
 //  Copyright (c) 2014 Jeff_Fry. All rights reserved.
@@ -60,7 +60,10 @@
         result.imageView.image = [[NSImage alloc] initWithContentsOfURL:imageUrl];
     }
     
-    NSLog(@"Created table row %ld",(long)row);
+    [result.imageView setImageFrameStyle:NSImageFrameNone];
+    
+    
+    //NSLog(@"Created table row %ld",(long)row);
     return result;
 }
 

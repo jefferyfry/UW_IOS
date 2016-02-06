@@ -18,7 +18,7 @@
 		123F3DE619A26D8600441B9C /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 123F3DE519A26D8600441B9C /* XCTest.framework */; };
 		123F3DE719A26D8600441B9C /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 123F3DC619A26D8600441B9C /* Cocoa.framework */; };
 		123F3DEF19A26D8600441B9C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 123F3DED19A26D8600441B9C /* InfoPlist.strings */; };
-		123F3DF119A26D8600441B9C /* HW6_JfryTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 123F3DF019A26D8600441B9C /* HW6_JfryTests.m */; };
+		123F3DF119A26D8600441B9C /* MoviePlexTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 123F3DF019A26D8600441B9C /* MoviePlexTests.m */; };
 		123F3DFD19A277E000441B9C /* JBFWindowController.m in Sources */ = {isa = PBXBuildFile; fileRef = 123F3DFB19A277E000441B9C /* JBFWindowController.m */; };
 		123F3DFE19A277E000441B9C /* JBFWindowController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 123F3DFC19A277E000441B9C /* JBFWindowController.xib */; };
 		123F3E0719A2786300441B9C /* JBFMovieSearchListingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 123F3E0519A2786300441B9C /* JBFMovieSearchListingViewController.m */; };
@@ -28,6 +28,7 @@
 		123F3E1A19A3C26300441B9C /* JBFMovieSearchResult.m in Sources */ = {isa = PBXBuildFile; fileRef = 123F3E1919A3C26300441B9C /* JBFMovieSearchResult.m */; };
 		123F3E1D19A3C33D00441B9C /* JBFJSON2MovieParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 123F3E1C19A3C33D00441B9C /* JBFJSON2MovieParser.m */; };
 		123F3E2019A40EB500441B9C /* JBFMovieTableCellView.m in Sources */ = {isa = PBXBuildFile; fileRef = 123F3E1F19A40EB500441B9C /* JBFMovieTableCellView.m */; };
+		12533FDE1C65C4C000E471F4 /* movieplex.png in Resources */ = {isa = PBXBuildFile; fileRef = 12533FDD1C65C4C000E471F4 /* movieplex.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,7 +48,7 @@
 		123F3DC919A26D8600441B9C /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
 		123F3DCA19A26D8600441B9C /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
 		123F3DCB19A26D8600441B9C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
-		123F3DCE19A26D8600441B9C /* HW6_Jfry-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "HW6_Jfry-Info.plist"; sourceTree = "<group>"; };
+		123F3DCE19A26D8600441B9C /* MoviePlex-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MoviePlex-Info.plist"; sourceTree = "<group>"; };
 		123F3DD019A26D8600441B9C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		123F3DD219A26D8600441B9C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		123F3DD419A26D8600441B9C /* MoviePlex-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MoviePlex-Prefix.pch"; sourceTree = "<group>"; };
@@ -58,9 +59,9 @@
 		123F3DDE19A26D8600441B9C /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		123F3DE419A26D8600441B9C /* MoviePlex.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MoviePlex.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		123F3DE519A26D8600441B9C /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
-		123F3DEC19A26D8600441B9C /* HW6_JfryTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "HW6_JfryTests-Info.plist"; sourceTree = "<group>"; };
+		123F3DEC19A26D8600441B9C /* MoviePlexTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MoviePlexTests-Info.plist"; sourceTree = "<group>"; };
 		123F3DEE19A26D8600441B9C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		123F3DF019A26D8600441B9C /* HW6_JfryTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HW6_JfryTests.m; sourceTree = "<group>"; };
+		123F3DF019A26D8600441B9C /* MoviePlexTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MoviePlexTests.m; sourceTree = "<group>"; };
 		123F3DFA19A277E000441B9C /* JBFWindowController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = JBFWindowController.h; path = ../JBFWindowController.h; sourceTree = "<group>"; };
 		123F3DFB19A277E000441B9C /* JBFWindowController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = JBFWindowController.m; path = ../JBFWindowController.m; sourceTree = "<group>"; };
 		123F3DFC19A277E000441B9C /* JBFWindowController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = JBFWindowController.xib; path = ../JBFWindowController.xib; sourceTree = "<group>"; };
@@ -77,6 +78,7 @@
 		123F3E1C19A3C33D00441B9C /* JBFJSON2MovieParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JBFJSON2MovieParser.m; sourceTree = "<group>"; };
 		123F3E1E19A40EB500441B9C /* JBFMovieTableCellView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JBFMovieTableCellView.h; sourceTree = "<group>"; };
 		123F3E1F19A40EB500441B9C /* JBFMovieTableCellView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JBFMovieTableCellView.m; sourceTree = "<group>"; };
+		12533FDD1C65C4C000E471F4 /* movieplex.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = movieplex.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -142,6 +144,7 @@
 		123F3DCC19A26D8600441B9C /* MoviePlex */ = {
 			isa = PBXGroup;
 			children = (
+				12533FDD1C65C4C000E471F4 /* movieplex.png */,
 				123AA1B219A523FF00A16101 /* blank_poster.jpg */,
 				123F3DD819A26D8600441B9C /* JBFAppDelegate.h */,
 				123F3DD919A26D8600441B9C /* JBFAppDelegate.m */,
@@ -165,7 +168,7 @@
 		123F3DCD19A26D8600441B9C /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				123F3DCE19A26D8600441B9C /* HW6_Jfry-Info.plist */,
+				123F3DCE19A26D8600441B9C /* MoviePlex-Info.plist */,
 				123F3DCF19A26D8600441B9C /* InfoPlist.strings */,
 				123F3DD219A26D8600441B9C /* main.m */,
 				123F3DD419A26D8600441B9C /* MoviePlex-Prefix.pch */,
@@ -177,7 +180,7 @@
 		123F3DEA19A26D8600441B9C /* MoviePlexTests */ = {
 			isa = PBXGroup;
 			children = (
-				123F3DF019A26D8600441B9C /* HW6_JfryTests.m */,
+				123F3DF019A26D8600441B9C /* MoviePlexTests.m */,
 				123F3DEB19A26D8600441B9C /* Supporting Files */,
 			);
 			path = MoviePlexTests;
@@ -186,7 +189,7 @@
 		123F3DEB19A26D8600441B9C /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				123F3DEC19A26D8600441B9C /* HW6_JfryTests-Info.plist */,
+				123F3DEC19A26D8600441B9C /* MoviePlexTests-Info.plist */,
 				123F3DED19A26D8600441B9C /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
@@ -259,7 +262,7 @@
 			isa = PBXProject;
 			attributes = {
 				CLASSPREFIX = JBF;
-				LastUpgradeCheck = 0510;
+				LastUpgradeCheck = 0720;
 				ORGANIZATIONNAME = Jeff_Fry;
 				TargetAttributes = {
 					123F3DE319A26D8600441B9C = {
@@ -292,6 +295,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				123F3DD119A26D8600441B9C /* InfoPlist.strings in Resources */,
+				12533FDE1C65C4C000E471F4 /* movieplex.png in Resources */,
 				123F3E0819A2786300441B9C /* JBFMovieSearchListingViewController.xib in Resources */,
 				123AA1B319A523FF00A16101 /* blank_poster.jpg in Resources */,
 				123F3DDF19A26D8600441B9C /* Images.xcassets in Resources */,
@@ -332,7 +336,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				123F3DF119A26D8600441B9C /* HW6_JfryTests.m in Sources */,
+				123F3DF119A26D8600441B9C /* MoviePlexTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -399,6 +403,7 @@
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
@@ -460,6 +465,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "MoviePlex/MoviePlex-Prefix.pch";
 				INFOPLIST_FILE = "MoviePlex/MoviePlex-Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = "JBF.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = MoviePlex;
 				WRAPPER_EXTENSION = app;
 			};
@@ -473,6 +479,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "MoviePlex/MoviePlex-Prefix.pch";
 				INFOPLIST_FILE = "MoviePlex/MoviePlex-Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = "JBF.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = MoviePlex;
 				WRAPPER_EXTENSION = app;
 			};
@@ -481,19 +488,19 @@
 		123F3DF819A26D8600441B9C /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/HW6_Jfry.app/Contents/MacOS/HW6_Jfry";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/MoviePlex.app/Contents/MacOS/MoviePlex";
 				COMBINE_HIDPI_IMAGES = YES;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(DEVELOPER_FRAMEWORKS_DIR)",
 					"$(inherited)",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "HW6_Jfry/HW6_Jfry-Prefix.pch";
+				GCC_PREFIX_HEADER = "MoviePlex/MoviePlex-Prefix.pch";
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
 					"$(inherited)",
 				);
-				INFOPLIST_FILE = "HW6_JfryTests/HW6_JfryTests-Info.plist";
+				INFOPLIST_FILE = "MoviePlexTests/MoviePlexTests-Info.plist";
 				PRODUCT_NAME = MoviePlex;
 				TEST_HOST = "$(BUNDLE_LOADER)";
 				WRAPPER_EXTENSION = xctest;
@@ -503,15 +510,15 @@
 		123F3DF919A26D8600441B9C /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/HW6_Jfry.app/Contents/MacOS/HW6_Jfry";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/MoviePlex.app/Contents/MacOS/MoviePlex";
 				COMBINE_HIDPI_IMAGES = YES;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(DEVELOPER_FRAMEWORKS_DIR)",
 					"$(inherited)",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "HW6_Jfry/HW6_Jfry-Prefix.pch";
-				INFOPLIST_FILE = "HW6_JfryTests/HW6_JfryTests-Info.plist";
+				GCC_PREFIX_HEADER = "MoviePlex/MoviePlex-Prefix.pch";
+				INFOPLIST_FILE = "MoviePlexTests/MoviePlexTests-Info.plist";
 				PRODUCT_NAME = MoviePlex;
 				TEST_HOST = "$(BUNDLE_LOADER)";
 				WRAPPER_EXTENSION = xctest;

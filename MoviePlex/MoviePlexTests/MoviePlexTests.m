@@ -1,6 +1,6 @@
 //
-//  HW6_JfryTests.m
-//  HW6_JfryTests
+//  MoviePlexTests.m
+//  MoviePlexTests
 //
 //  Created by Jeffery Fry on 8/18/14.
 //  Copyright (c) 2014 Jeff_Fry. All rights reserved.
@@ -8,11 +8,11 @@
 
 #import <XCTest/XCTest.h>
 
-@interface HW6_JfryTests : XCTestCase
+@interface MoviePlexTests : XCTestCase
 
 @end
 
-@implementation HW6_JfryTests
+@implementation MoviePlexTests
 
 - (void)setUp
 {
